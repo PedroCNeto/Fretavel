@@ -1,13 +1,13 @@
 import React from 'react';
+import Header from './components/header';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <Button variant="primary">Primary</Button>
-      </header>
+      <Header></Header>
     </div>
   );
 }

@@ -1,0 +1,35 @@
+.header {
+    background-color: rgb(235, 235, 235);
+}
+
+.navBar{
+    margin: 0 260px 0 260px;
+}
+
+.navBarContent {
+    padding: 1vw 0 0.5vw 1vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navBar .titleNavBar {
+    font-weight: bold;
+}
+
+.navBar .links {
+    margin-left: 2vw;
+    display: flex;
+    gap: 10px;
+}
+
+.userLinks {
+    margin-right: 150px;
+    margin-left: auto; /* Empurra para o lado direito */
+    display: flex;
+    gap: 10px;
+  }
+
+.navBar .linkNavBar {
+    text-decoration: none;
+}
